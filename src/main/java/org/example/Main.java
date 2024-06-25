@@ -1,7 +1,6 @@
-package SpotBugsTets;
+package org.example;
 
-public class MyTest {
-
+public class Main {
     static  String myclean(String x) { return x; } //clean
     static String mysource(String x) { return x; }
     static void mysink(String x) {}
@@ -31,9 +30,8 @@ public class MyTest {
 
         mysink(dirty);
     }
-
     public static void main(String[] args) {
-        //good();
+
         bad();
     }
 }
