@@ -18,7 +18,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- Use the latest version if possible -->
+                <version>3.6.3</version> <!-- Use the latest version if possible -->
                 <configuration>
                     <source>11</source>
                     <target>11</target>
